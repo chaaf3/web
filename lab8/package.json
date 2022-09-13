@@ -1,0 +1,16 @@
+{
+  "name": "lab8",
+  "version": "1.0.0",
+  "description": "web document site",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Connor Haaf 10471824",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3"
+  }
+}

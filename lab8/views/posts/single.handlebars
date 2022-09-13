@@ -1,0 +1,12 @@
+<article>
+<title>{{shows.name}}</title>
+<h1>{{shows.name}}</h1>
+<img src = "{{shows.image.medium}}"/> 
+<dl> 
+  <dt>language</dt> <dd>{{#if shows.language}}{{shows.language}} {{else}}N/A{{/if}}</dd>
+  <dt>genres</dt> <dd>{{#if shows.genres}}<ul>{{#each shows.genres}}<li>{{this}}</li>{{/each}}</ul>{{else}}N/A{{/if}}</dd>
+  <dt>rating</dt> <dd>{{#if shows.rating.average}}{{shows.language}} {{else}}N/A{{/if}}</dd>
+  <dt>network</dt> <dd>{{#if shows.network.name}}{{shows.network.name}} {{else}}N/A{{/if}}</dd>
+  <dt>summary</dt> <dd>{{#if shows.summary}} {{{ shows.summary}}} {{else}} N/A{{/if}}</dd>
+</dl>
+</article>

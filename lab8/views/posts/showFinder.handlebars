@@ -1,0 +1,32 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Show Finder</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/public/css/main_styles.css">
+</head>
+
+<body>
+    <main>
+        <h1>Show Finder</h1>
+        <article>
+            <p>
+                This site is a site that has three pages.
+                This one and two others each of which search for tv shows based on user forms.
+                The diffrent search options are by id or keyword.
+            </p>
+            <form action="/searchshows" method="POST" class="new-post-form">
+                <label>
+                  Post Title
+                  <input type="text" name="showSearchTerm" placeholder="" value="{{keyword}}" class="full-width-input"/>
+                </label>
+                <button type="submit">submit</button>
+              </form>
+
+        </article>
+    </main>
+</body>
+
+</html>
