@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-2",
+  "version": "1.0.0",
+  "description": "Asynch practice",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Connor Haaf 10471824",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
