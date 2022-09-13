@@ -1,0 +1,19 @@
+{
+  "name": "lab10",
+  "version": "1.0.0",
+  "description": "Authentification stuff",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Connor Haaf 10471824",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.4",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.5.0"
+  }
+}

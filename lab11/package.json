@@ -1,0 +1,16 @@
+{
+  "name": "lab11",
+  "version": "1.0.0",
+  "description": "ajax",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Connor Haaf",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.5",
+    "xss": "^1.0.11"
+  }
+}

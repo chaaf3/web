@@ -1,0 +1,40 @@
+.not-prime {
+    color: #FF3D00;
+  }
+.is-prime {
+    color: #00E676;
+}
+button {
+    color: brown;
+}
+label {
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+body {
+    text-align: center;
+}
+h1 {
+    font-style: italic;
+}
+
+footer {
+    position:absolute;
+}
+
+footer {
+    font-style: italic;
+}
+
+form {
+    background-color: gray;
+}
+body {
+    padding-top:90px;
+}
+
+h1 {
+    text-decoration:underline;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lab9",
+  "version": "1.0.0",
+  "description": "prime checker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Connor Haaf 10471824",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

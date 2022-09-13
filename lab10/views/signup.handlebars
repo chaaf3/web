@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <h1>Please Sign up</h1>
+	<br>
+    <form id="signup-form" method="POST" action="/signup">
+        <label for="username">username</label>
+        <input id="username" name="username" type="text">
+        <label for="password">password</label>
+        <input id="password" name="password" type="password">
+        <button type="submit">submit</button>
+    </form>
+    {{#if error}}
+    <p> your username or password don't meet the criteria</p>
+    {{/if}}
+    <a href="/">Already have an account? Click here to log-in</a>
+
+<ul id="attempts"></ul>
+</body>
+
+</html>
